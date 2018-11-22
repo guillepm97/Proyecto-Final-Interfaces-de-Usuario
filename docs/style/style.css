@@ -1,0 +1,418 @@
+/*INICIO STYLE PARA MODAL DE REGISTRO Y DE INICIO DE SESIÓN*/
+
+.modal-reg {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    margin-bottom: 3%; 
+   
+}
+.modal-iniciosesion {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    margin-bottom: 3%; 
+   
+}
+
+.modal-content-registro {
+    
+    margin: auto;
+    
+    border: 1px solid #888;
+    width: 60%;
+    height: 1400px;
+    
+   
+    background-color: rgb(255, 255, 255);
+}
+
+.modal-content-iniciosesion {
+    
+    margin: auto;
+    border: 1px solid #888;
+    width: 40%;
+    height: 500px;
+    
+   
+    background-color: rgb(255, 255, 255);
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.close:hover,
+
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.imagen-registro{
+
+    width: 100%;
+    height: 20%;
+    
+
+}
+.imagen-formulario{
+
+  
+    width: 100.2%;
+    height: 105%;
+    float: left;
+    opacity: 0.3;
+}
+.formulario-img{
+
+   float: left;
+    height: 80%;  
+    width: 100%;
+    position: relative;
+    
+   
+}
+.formulario-reg{
+
+     float: left;  
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     
+    
+ }
+.inputreg{
+
+    float: left;
+    margin-right: 3%;
+    margin-left: 3%;
+    width: 60%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    
+    
+
+}
+
+.inputreg2{
+
+    
+    margin-right: 3%;
+    margin-left: 3%;
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  
+}
+
+.inputini{
+
+    
+    margin-right: 3%;
+    margin-left: 3%;
+    width: 60%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding-left: 10%;
+  
+}
+
+.caja{
+    width:100%;
+    padding-right: 5%;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    
+}  
+
+.registro_button {
+    background-color: rgb(62, 187, 224);
+    color: white;
+    padding: 14px 20px;
+    margin-top: 5%;
+    margin-left: 18%;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    
+}
+
+#texto1{
+
+    padding-left: 3%;
+}
+
+/*FIN STYLE PARA MODAL DE REGISTRO Y DE INICIO DE SESIÓN*/
+
+
+/*INICIO STYLE PARA LA PÁGINA DE RESULTADOS DE UNA BÚSQUEDA */
+
+.seccion_busqueda{
+
+}
+
+.cabecera_busqueda{
+    width: 100%;
+    height: 350px;
+    background-image: url("https://www.surivision.nl/wp-content/uploads/2016/02/Religieuze-gebouwen.jpg");
+    background-position-y: 30%;
+    background-position-x: center;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.texto_cabecera{
+    opacity: 0.8;
+    background-color: rgb(187, 184, 184);
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 9%;
+    float:left;
+}
+
+.filtros_busqueda{
+    float: left;
+    height: 1000px;
+    width:30%;
+    background-color: rgb(236, 235, 234);
+}
+
+.resultados_busqueda{
+    float: left;
+    height: 1000px;
+    width:70%;
+    margin-bottom: 20%;
+}
+
+.boton_busqueda{
+    background-color: rgb(65, 59, 59);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(37, 34, 34); 
+    float:right;
+    color: white;
+    margin-top: 2%;
+    margin-right: 2%;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    height:10%;
+    padding: 4px;
+}
+
+.boton_busqueda:hover {
+    opacity: 0.8;
+}
+
+
+.boton_filtros{
+    background-color: rgb(65, 59, 59);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(37, 34, 34); 
+    float:right;
+    color: white;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    height:5%;
+    padding: 4px;
+}
+
+.boton_filtros:hover {
+    opacity: 0.8;
+}
+
+.boton_resultado{
+    position:absolute;
+    background-color: rgb(65, 59, 59);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(37, 34, 34); 
+    float:right;
+    color: white;
+    margin-top: 2%;
+    border: none;
+    cursor: pointer;
+    width: 26.8%;
+    height:7%;
+    margin-top:14.5%;
+    padding: 4px;
+}
+
+.boton_resultado:hover {
+    opacity: 0.8;
+}
+
+/*CLEAR EN UN DIV VACÍO, utilizado también en otra ocasión*/
+.espacio{
+    clear: both;
+    }
+
+.titulo_busqueda{
+    color: white;
+    text-align: center;
+
+}
+
+.titulo_filtros{
+    text-align:center;
+    margin-top:4%;
+    margin-bottom:4%;
+
+}
+
+.titulo_filtros_2{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+.titulo_filtros_3{
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+.checkbox_filtros{
+    margin-left: 7%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.filtros{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.caja_precio{
+        float:left;
+        width: 30%;
+        margin-bottom: 2%;
+        margin-left:5%;
+        padding: 3%;
+}
+
+.form_precios{
+    float:left;
+    width:100%;
+
+}
+
+.caja_keyword{
+    width:80%;
+    height:20%;
+    margin-left:5%;
+    padding:3%;
+    margin-bottom: 4%;
+}
+
+.box_resultado{
+    width:90%;
+    height: 24%;
+    margin-left: 5%;
+    margin-top:4%;
+    float:left;
+    background-color: rgb(179, 157, 157);
+}
+
+.imagen_resultado{
+    float:left;
+    margin-right: 4%;
+    height:100%;
+    width:43%;
+}
+.iconos_resultado{
+    width:5%;
+    height: 80%;
+    float: left;
+}
+.icono_resultado{
+    height:16%;
+    margin-bottom:2%;
+    
+}
+
+
+.imagen_fav{
+    float:left;
+    margin-top:0.5%;
+    margin-left:22%;
+    position:absolute;
+    height: 10%;
+}
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(41, 40, 40);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    opacity: 0.8;
+
+    /* Position the tooltip */
+    float: left;
+    margin-left:20%;
+    margin-top:5.5%;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.puntuaciones_filtros{
+    float:left;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+.nombre_hotel_filtros{
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 63%;
+
+}
+.texto_resultado{
+    float:left;
+    margin-left: 3%;
+    width: 42%;
+    margin-bottom:3%;
+    font:'Times New Roman';
+    text-size-adjust: 10px;
+}
+
+/*FIN STYLE PARA LA PÁGINA DE RESULTADOS DE UNA BÚSQUEDA */

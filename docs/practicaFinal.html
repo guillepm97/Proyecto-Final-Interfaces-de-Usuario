@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Fly!</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/style.css"> 
+       
+        
+
+    </head>
+
+    <body>
+        <!--Modal para registrarse.-->
+        <div id="modal-reg" class="modal-reg">
+
+            <div class="modal-content-registro">
+        
+                <span class="close">&times; </span>
+                <h1>Fly!</h1>
+                <img src="images/registrarse.png" alt="registro" class="imagen-registro">
+                <div class="formulario-img">
+                    <img src="images/registro4invertida.jpg" alt="img-formulario" class="imagen-formulario">
+                    <div class="formulario-reg">
+                            <div class="inputreg" id="inputreg">
+                                    <form >
+                                      Dirección de correo electrónico * <br>  <input type="text" id="femail" name="fname"  class="caja" required><br>
+                                    </form>
+                                </div>
+            
+                                <div class="inputreg2" id="inputreg2">
+                                    <form >
+                                      Nombre * <br>  <input type="text" id="fname" name="fname" class="caja" required><br>
+                                    </form>
+                                </div>
+            
+                                <div class="inputreg2" id="inputreg2">
+                                    <form >
+                                      Apellidos* <br>  <input type="text" id="fsurname" name="fname" class="caja" required><br>
+                                    </form>
+                                </div>
+            
+                                <div class="inputreg" id="inputreg">
+                                    <form >
+                                      Fecha de nacimiento * <br>  <input type="date" id="fdate" name="fname" class="caja" required><br>
+                                    </form>
+                                </div>
+            
+                                <div class="inputreg" id="inputreg">
+                                    <form >
+                                      Nombre de usuario *<br>  <input type="text" id="fusername" name="fname"  class="caja" required><br>
+                                    </form>
+                                </div>
+            
+                                <div class="inputreg2" id="inputreg2">
+                                    <form >
+                                      Contraseña *<br>  <input type="text" id="password" name="fpass"  class="caja" required><br>
+                                    </form>
+                                </div>
+            
+                                <div class="inputreg2" id="inputreg2">
+                                    <form >
+                                      Confirmar contraseña *<br>  <input type="password" id="fpass2" name="fname"  class="caja" required><br>
+                                    </form>
+                                </div>
+            
+                                <div class="inputreg">
+                                    <input type="checkbox" name="Terms" value="0"  id="agreement" required> He leído y acepto las Condiciones de uso*<br>
+                                </div>
+            
+                                <div class="inputreg">
+                                    <input type="checkbox" name="Terms" value="0"  id="agreement" required> Deseo recibir ofertas y promociones a mi correo<br>
+                                </div>
+            
+                                <button type="submit" class="registro_button" >Regístrate</button>
+                                
+                    </div>
+                    
+                </div>
+
+
+
+    
+            </div>
+    
+        </div>
+
+         <!--Modal para iniciar sesión-->
+        <div id="modal-iniciosesion" class="modal-iniciosesion">
+
+            <div class="modal-content-iniciosesion">
+        
+                <span class="close">&times; </span>
+                <h1>Fly!</h1>
+               
+                <div class="formulario-img">
+                    <img src="images/registro4invertida.jpg" alt="img-formulario" class="imagen-formulario">
+                    <div class="formulario-reg">
+                            <div class="inputini" id="inputini">
+                                    <form >
+                                      Nombre de usuario * <br>  <input type="text" id="fusernameinicio" name="fname"  class="caja" required><br>
+                                    </form>
+                                </div>
+            
+                                <div class="inputini" id="inputini">
+                                    <form >
+                                      Contraseña * <br>  <input type="text" id="fpassinicio" name="fname" class="caja" required><br>
+                                    </form>
+                                </div>
+
+                                <p id="texto1">¿Todavía no eres usuario? <a href="#">Regístrate aquí</a></p>
+            
+                               
+            
+                                <button type="submit" class="registro_button" >Entrar</button>
+                                
+                    </div>
+                    
+                </div>
+
+
+
+    
+            </div>
+    
+        </div>
+
+         <!--INICIO PÁGINA DE RESULTADOS AL REALIZAR UNA BÚSQUEDA-->    
+        <div class="seccion_busqueda">
+
+            <div class="cabecera_busqueda">
+                    <button class="boton_busqueda" type="button">INICIAR SESIÓN</button>
+                    <button class="boton_busqueda" type="button">REGISTRARME</button>
+                    
+                    <div class="texto_cabecera">
+                    <h1 class="titulo_busqueda">PARAMARIMBO</h1>
+                    <h4 class="titulo_busqueda">SURINAM, SUDAMÉRICA</h4>
+                    </div>
+                    
+            </div>
+            
+            <div class="filtros_busqueda">
+                <h1 class="titulo_filtros">Filtrar según</h1>
+                    
+                    <!-- separador -->
+                    <div class="espacio">
+                    </div>
+                    <hr/>
+                <div class="filtros">
+                <h3 class="titulo_filtros_2">Precios</h3>
+               
+                <form class="form_precios" action="/action_page.php">
+                    <h4 class="titulo_filtros_3">Precio mínimo (€):</h4>
+                    <input class="caja_precio" type="number" name="min" value="p.ej: 100">
+                
+                    <h4 class="titulo_filtros_3">Precio máximo (€):</h4>
+                    <input class="caja_precio" type="number" name="max" value="p.ej: 10000">
+                    
+                </form>
+    
+                </div>
+                    
+                    <!-- separador -->
+                    <div class="espacio">
+                    </div>
+                    <hr/>           
+                
+                <div class="filtros">
+                <h3 class="titulo_filtros_2">Valoración de usuarios</h3>
+                <input class="checkbox_filtros" type="checkbox" name="1star" value="1"> 👍<br>
+                <input class="checkbox_filtros" type="checkbox" name="2star" value="2"> 👍👍<br>
+                <input class="checkbox_filtros" type="checkbox" name="3star" value="3"> 👍👍👍<br>
+                <input class="checkbox_filtros" type="checkbox" name="4star" value="4"> 👍👍👍👍<br>
+                <input class="checkbox_filtros" type="checkbox" name="5star" value="5"> 👍👍👍👍👍<br>
+                </div>
+                   
+                    <!-- separador -->
+                    <div class="espacio">
+                    </div>
+                    <hr/>
+    
+                <div class="filtros">
+                <h3 class="titulo_filtros_2">Estrellas del hotel</h3>
+                <input class="checkbox_filtros" type="checkbox" name="1star" value="1">  Hotel de 1 estrella    ⭐<br>
+                <input class="checkbox_filtros" type="checkbox" name="2star" value="2">  Hotel de 2 estrellas   ⭐⭐<br>
+                <input class="checkbox_filtros" type="checkbox" name="3star" value="3">  Hotel de 3 estrellas   ⭐⭐⭐<br>
+                <input class="checkbox_filtros" type="checkbox" name="4star" value="4">  Hotel de 4 estrellas   ⭐⭐⭐⭐<br>
+                <input class="checkbox_filtros" type="checkbox" name="5star" value="5">  Hotel de 5 estrellas   ⭐⭐⭐⭐⭐<br>
+                </div>
+    
+                    <!-- separador -->
+                    <div class="espacio">
+                    </div>
+                    <hr/>
+    
+                <div class="filtros">
+                <h3 class="titulo_filtros_2">Palabras clave (Separadas por una coma)</h3>
+                
+                <form class="form_precios" action="/action_page.php">
+                    <input class="caja_keyword" type="text" name="keyw">
+                </form>
+    
+                <div class="tags_keywords">
+                
+                </div>
+    
+                </div>
+    
+                    <!-- separador -->
+                    <div class="espacio">
+                    </div>
+                    <hr/>
+    
+                <button class="boton_filtros" type="button">Aplicar filtros</button>
+                <button class="boton_filtros" type="button">Restablecer</button>
+        
+            </div>
+    
+            <div class="resultados_busqueda">
+                <div class="box_resultado">
+                        <div class="tooltip">
+                        <input type="image" src="images/fav_icon.png" alt="fav" class="imagen_fav">
+                        <span class="tooltiptext">Añadir a favoritos</span>
+                        </div>
+                
+                <button class="boton_resultado" type="button">Ver oferta 199€/Noche</button>
+                <img src="images/cezar.jpg" alt="hotel" class="imagen_resultado">
+    
+                <h3 class="puntuaciones_filtros">👍👍👍👍👍</h3>
+                <h2 class="nombre_hotel_filtros">Hotel Paco</h2>
+                <div class="iconos_resultado">
+                <img src="images/wifi.png" alt="hotel" class="icono_resultado">
+                <img src="images/parking.png" alt="hotel" class="icono_resultado">
+                <img src="images/breakfast.png" alt="hotel" class="icono_resultado">
+                <img src="images/wheelchair.png" alt="hotel" class="icono_resultado">
+                </div>
+                <p class="texto_resultado">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio lectus, molestie vitae felis ac, vestibulum pellentesque arcu. Aenean tortor mi, faucibus vitae sollicitudin fermentum, mattis in lorem. Aenean rutrum dui at justo egestas suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                </div>
+    
+                <div class="box_resultado">
+                        <div class="tooltip">
+                        <input type="image" src="images/fav_icon.png" alt="fav" class="imagen_fav">
+                        <span class="tooltiptext">Añadir a favoritos</span>
+                        </div>
+                <button class="boton_resultado" type="button">Ver oferta 199€/Noche</button>
+                <img src="images/cezar.jpg" alt="hotel" class="imagen_resultado"> 
+                <h3 class="puntuaciones_filtros">👍👍👍👍</h3> 
+                <h2 class="nombre_hotel_filtros">Hotel Ana</h2>
+                <div class="iconos_resultado">
+                <img src="images/wifi.png" alt="hotel" class="icono_resultado">
+                <img src="images/wheelchair.png" alt="hotel" class="icono_resultado">
+                </div> 
+                <p class="texto_resultado">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio lectus, molestie vitae felis ac, vestibulum pellentesque arcu. Aenean tortor mi, faucibus vitae sollicitudin fermentum, mattis in lorem. Aenean rutrum dui at justo egestas suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                </div>
+    
+                <div class="box_resultado">
+                        <div class="tooltip">
+                        <input type="image" src="images/fav_icon.png" alt="fav" class="imagen_fav">
+                        <span class="tooltiptext">Añadir a favoritos</span>
+                        </div>
+                <button class="boton_resultado" type="button">Ver oferta 199€/Noche</button>
+                <img src="images/cezar.jpg" alt="hotel" class="imagen_resultado">  
+                <h3 class="puntuaciones_filtros">👍👍</h3>
+                <h2 class="nombre_hotel_filtros">Hotel Pedro</h2>
+                <div class="iconos_resultado">                
+                <img src="images/wifi.png" alt="hotel" class="icono_resultado">
+                <img src="images/parking.png" alt="hotel" class="icono_resultado">
+                </div>
+                <p class="texto_resultado">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio lectus, molestie vitae felis ac, vestibulum pellentesque arcu. Aenean tortor mi, faucibus vitae sollicitudin fermentum, mattis in lorem. Aenean rutrum dui at justo egestas suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                </div>
+    
+                <div class="box_resultado">
+                        <div class="tooltip">
+                        <input type="image" src="images/fav_icon.png" alt="fav" class="imagen_fav">
+                        <span class="tooltiptext">Añadir a favoritos</span>
+                        </div>
+                <button class="boton_resultado" type="button">Ver oferta 199€/Noche</button>
+                <img src="images/cezar.jpg" alt="hotel" class="imagen_resultado"> 
+                <h3 class="puntuaciones_filtros">👍</h3>
+                <h2 class="nombre_hotel_filtros">Hotel María</h2>
+                <div class="iconos_resultado">
+                <img src="images/wifi.png" alt="hotel" class="icono_resultado">
+                <img src="images/parking.png" alt="hotel" class="icono_resultado">
+                <img src="images/wheelchair.png" alt="hotel" class="icono_resultado">
+                </div>
+                <p class="texto_resultado">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio lectus, molestie vitae felis ac, vestibulum pellentesque arcu. Aenean tortor mi, faucibus vitae sollicitudin fermentum, mattis in lorem. Aenean rutrum dui at justo egestas suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                </div>
+            </div>
+    
+        </div>
+    
+        <!--FIN PÁGINA DE RESULTADOS AL REALIZAR UNA BÚSQUEDA-->
+        
+
+
+    </body>
+    
+
